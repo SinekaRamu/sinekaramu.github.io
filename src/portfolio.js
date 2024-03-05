@@ -49,9 +49,22 @@ const skills = {
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: "devicon:javascript",
           style: {
-            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "markdown",
+          fontAwesomeClassname: "devicon:markdown",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Typescript",
+          fontAwesomeClassname: "devicon:typescript",
+          style: {
             color: "#F7DF1E",
           },
         },
@@ -64,7 +77,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs",
           style: {
             color: "#339933",
           },
@@ -78,19 +91,13 @@ const skills = {
         },
 
         {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
+          skillName: "VScode",
+          fontAwesomeClassname: "devicon:vscode",
           style: {
             color: "#029FCE",
           },
         },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
+
         {
           skillName: "jQuery",
           fontAwesomeClassname: "simple-icons:jquery",
@@ -98,27 +105,29 @@ const skills = {
             color: "#0865A6",
           },
         },
+
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
           style: {
-            color: "#38AFBB",
+            color: "#4479A1",
           },
         },
         {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          fontAwesomeClassname: "logos:postgresql",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Sequelize",
+          fontAwesomeClassname: "logos:sequelize",
           style: {
-            color: "#47A248",
+            color: "#336791",
           },
         },
+
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -127,10 +136,10 @@ const skills = {
           },
         },
         {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
           style: {
-            color: "#5b77ef",
+            color: "#38AFBB",
           },
         },
       ],
@@ -145,8 +154,22 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
+          skillName: "Embedded C",
+          fontAwesomeClassname: "devicon:embeddedc",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Arduino",
+          fontAwesomeClassname: "devicon:arduino",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Raspberry Pi",
+          fontAwesomeClassname: "devicon:raspberrypi",
           style: {
             color: "#E94E32",
           },
@@ -158,6 +181,7 @@ const skills = {
             color: "#E94E32",
           },
         },
+
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
@@ -182,7 +206,7 @@ const degrees = {
     {
       title: "St. Anne's College of Engineering and Techonology",
       subtitle: "Bachelor in Engineering",
-      logo_path: "ssec.png",
+      logo_path: "Anna_University_Logo.png",
       alt_name: "AU",
       duration: "2018 - 2022",
       descriptions: [
@@ -199,14 +223,23 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Robotics",
+      subtitle: "Build Robotics using TINKERCAD",
+      logo_path: "ediylabs.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
+        "https://drive.google.com/file/d/1PQ04xe2FtdFQidi_9FPSCBWlGyiiVgSN/view?usp=drive_link",
+      alt_name: "Innovism",
+      color_code: "#2AAFED",
+      // color_code: "#47A048",
+    },
+    {
+      title: "Industrial Intern",
+      subtitle: "Microfludic Syringe Pump",
+      logo_path: "ismo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1H4uqHZnlwZSY8Bj2l_qLdGjujpjH2jyC/view?usp=sharing",
+      alt_name: "Internship",
+      color_code: "#fffbf3",
     },
 
     // color_code: "#8C151599",
@@ -236,7 +269,7 @@ const experience = {
           title: "Development Trainee",
           company: "Mediwave Digital Private Limited",
           company_url: "https://www.mediwavedigital.com/",
-          logo_path: "valora.jpg",
+          logo_path: "mediwave_digital_logo.jpeg",
           duration: "Aug 2023 - JUN 2024",
           location: "Puducherry, India",
           description: `• Proficiently acquired core competencies in web development,
@@ -258,7 +291,7 @@ const experience = {
           title: "Junior Electronics Engineer",
           company: "ISMO Bio-Photonics Private Limited",
           company_url: "https://ismobiophotonics.com/",
-          logo_path: "nightowls.jpg",
+          logo_path: "ismo.png",
           duration: "Jun 2022 - Aug 2023",
           location: "IIT Research Park, Chennai.",
           description: `Designing Embedded systems, documentation, Hardware wiring and software programming, testing, calibration, troubleshooting.
@@ -272,7 +305,7 @@ const experience = {
           title: "Industrial Intern",
           company: "ISMO Bio-Photonics Private Limited",
           company_url: "https://ismobiophotonics.com/",
-          logo_path: "nightowls.jpg",
+          logo_path: "ismo.png",
           duration: "Oct 2021 - Mar 2022",
           location: "IIT Research Park, Chennai.",
           description: `Completed an embedded project involving UI design, programming,
@@ -290,7 +323,7 @@ const experience = {
           title: "Workshop Trainee",
           company: "Edilabs Technology Solutions",
           company_url: "https://ediylabs.com/",
-          logo_path: "cwoc.png",
+          logo_path: "ediylabs.png",
           duration: "Feb 2020 - Present",
           location: "Cuddalore",
           description:
@@ -352,21 +385,30 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/sinekaramu/Keep-Calm-and-Carry-On.github.io",
+          url: "https://github.com/sinekaramu/todo-app-ts",
           iconifyClass: "ri:github-fill",
+        },
+        {
+          name: "Live Demo",
+          url: "https://todo-app-ts-delta.vercel.app/",
+          iconifyClass: "mdi:web",
         },
       ],
     },
     {
       id: "1",
-      name: "YOG4LIFE SOCIAL APP",
-      url: "https://github.com/kevalvavaliya/Yog4Life",
+      name: "Authenticated Signup",
+      url: "https://github.com/SinekaRamu/pg-sequalize-jwt",
       description:
-        "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
+        "Backend Authentication Signup, login, account API using bcryptjs, jsonwebtoken created using Espress framework, joi validation, sequelize library, postgresql",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "PostgreSQL",
+          iconifyClass: "logos:postgresql",
+        },
+        {
+          name: "Sequelize",
+          iconifyClass: "logos:sequelize",
         },
         {
           name: "NodeJs",
@@ -376,22 +418,17 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/kevalvavaliya/Yog4Life",
+          url: "https://github.com/SinekaRamu/pg-sequalize-jwt",
           iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devfolio",
-          url: "https://devfolio.co/projects/yoglife-b20d",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
         },
       ],
     },
     {
       id: "2",
-      name: "Adoptisity",
-      url: "https://github.com/kevalvavaliya/Adoptisity",
+      name: "Diary-App",
+      url: "https://github.com/SinekaRamu/diary-app",
       description:
-        "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
+        "Digital diary which helps to write our dialy activities, basically the memories and feeling people will never get to understand. let's make a autobiography.",
       languages: [
         {
           name: "HTML5",
@@ -409,85 +446,23 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/sinekaramu/Adoptisity",
+          url: "https://github.com/SinekaRamu/diary-app",
           iconifyClass: "ri:github-fill",
         },
 
         {
           name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
+          url: "https://todo-app-ts-delta.vercel.app/",
           iconifyClass: "mdi:web",
         },
       ],
     },
     {
       id: "3",
-      name: "FinSplit",
-      url: "https://github.com/rajmahadev8/Fin-Split",
+      name: "Receipe-App",
+      url: "https://github.com/SinekaRamu/receipe-app",
       description:
-        "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/rajmahadev8/Fin-Split",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/finsplit",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Fileblok",
-      url: "https://github.com/sinekaramu/Fileblok",
-      description:
-        "Keep your projects moving with seamless transfer experice. FileBlok is a file transfer app that allows you to transfer files from one device to another without any hassle. We built this app using Flutter, Node.js and StoryBlok.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Storyblok",
-          iconifyClass: "logos-storyblok-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/sinekaramu/Fileblok",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/fileblok",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "BAUDDIK-GEEKS PORTFOLIO",
-      url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-      description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
+        "receipe app where you can create a new dish receipe with instruction and its time duration",
       languages: [
         {
           name: "HTML5",
@@ -505,133 +480,94 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
+          url: "https://github.com/SinekaRamu/receipe-app",
           iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://bauddhikgeeks.co/",
-          iconifyClass: "mdi:web",
         },
       ],
     },
     {
-      id: "7",
-      name: "Votechain",
-      url: "https://github.com/abhigoyani/votechain",
+      id: "4",
+      name: "Todo-App",
+      url: "https://github.com/SinekaRamu/todo-app",
       description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
+        "receipe app where you can create a new dish receipe with instruction and its time duration",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
           name: "HTML5",
-          iconifyClass: "logos-html-5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
           name: "CSS3",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
       links: [
         {
           name: "Github",
-          url: "https://github.com/abhigoyani/votechain",
+          url: "https://github.com/SinekaRamu/todo-app",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "biblio-API",
+      url: "https://github.com/sinekaramu/express-biblio-api",
+      description:
+        "Biblio-API created using express framework with RESTfull api's",
+      languages: [
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "logos:postgresql",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/sinekaramu/express-biblio-api",
+          iconifyClass: "ri:github-fill",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "Receipe-App",
+      url: "https://github.com/SinekaRamu/receipe-app",
+      description:
+        "receipe app where you can create a new dish receipe with instruction and its time duration",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+      links: [
+        {
+          name: "Github",
+          url: "https://github.com/SinekaRamu/receipe-app",
           iconifyClass: "ri:github-fill",
         },
       ],
     },
 
     {
-      id: "9",
-      name: "node-blockchain",
-      url: "https://github.com/sinekaramu/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "skill-icons:typescript",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/sinekaramu/node-blockchain",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Know Me Well",
-      url: "https://github.com/sinekaramu/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/sinekaramu/personal-portfolio",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Bloggify",
-      url: "https://github.com/sinekaramu/Bloggify",
-      description: "A Simple REST API for Blog Application.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/sinekaramu/Bloggify",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "API",
-      url: "https://github.com/sinekaramu/stargazers",
-      description: "An Unofficial API for GitHub Repo Stars Count",
-      languages: [
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/sinekaramu/stargazers",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "10",
+      id: "7",
       name: "react-calculator",
       url: "https://github.com/sinekaramu/react-calculator",
       description:
