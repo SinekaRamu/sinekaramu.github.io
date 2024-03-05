@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4e123fa.chunk.css",
+    "main.js": "/static/js/main.75178360.chunk.js",
+    "main.js.map": "/static/js/main.75178360.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff4e7e44.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff4e7e44.js.map",
+    "static/js/2.02c0cf4d.chunk.js": "/static/js/2.02c0cf4d.chunk.js",
+    "static/js/2.02c0cf4d.chunk.js.map": "/static/js/2.02c0cf4d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ea47d7025033e27c13793a00f8e28a79.js": "/precache-manifest.ea47d7025033e27c13793a00f8e28a79.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d4e123fa.chunk.css.map": "/static/css/main.d4e123fa.chunk.css.map",
+    "static/js/2.02c0cf4d.chunk.js.LICENSE.txt": "/static/js/2.02c0cf4d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Anna_University_Logo.png": "/static/media/Anna_University_Logo.ea3e6322.png",
+    "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/github.png": "/static/media/github.0ba2aa20.png",
+    "static/media/ismo.png": "/static/media/ismo.326cb796.png",
+    "static/media/mlh-logo.svg": "/static/media/mlh-logo.bc5cfd3a.svg",
+    "static/media/postman.png": "/static/media/postman.c108f557.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff4e7e44.js",
+    "static/js/2.02c0cf4d.chunk.js",
+    "static/css/main.d4e123fa.chunk.css",
+    "static/js/main.75178360.chunk.js"
+  ]
+}
