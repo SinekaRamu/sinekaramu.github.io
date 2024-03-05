@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personal Portfolio",
-  "homepage": "http://sinekaramu.github.io/Portfolio",
+  "homepage": "http://sinekaramu.github.io/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
