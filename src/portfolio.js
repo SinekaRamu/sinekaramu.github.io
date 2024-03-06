@@ -227,7 +227,7 @@ const certifications = {
       subtitle: "Build Robotics using TINKERCAD",
       logo_path: "ediylabs.png",
       certificate_link:
-        "https://drive.google.com/file/d/1PQ04xe2FtdFQidi_9FPSCBWlGyiiVgSN/view?usp=drive_link",
+        "https://drive.google.com/file/d/1PQ04xe2FtdFQidi_9FPSCBWlGyiiVgSN/view?usp=sharing",
       alt_name: "Innovism",
       color_code: "#2AAFED",
       // color_code: "#47A048",
@@ -240,6 +240,16 @@ const certifications = {
         "https://drive.google.com/file/d/1H4uqHZnlwZSY8Bj2l_qLdGjujpjH2jyC/view?usp=sharing",
       alt_name: "Internship",
       color_code: "#fffbf3",
+    },
+
+    {
+      title: "Web development in python using Pycharm",
+      subtitle: "Webinar",
+      logo_path: "icons8-python-94.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1woakdTm4lL0SkSMSpbgVSlcVhakViHvo/view?usp=sharing",
+      alt_name: "python",
+      color_code: "#b190b0",
     },
 
     // color_code: "#8C151599",
