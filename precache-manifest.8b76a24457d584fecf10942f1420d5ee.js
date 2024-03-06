@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fcc6985ae607b9b752429e005564734",
+    "revision": "2465580fbb08e1c96d16d6651713a00c",
     "url": "/index.html"
   },
   {
-    "revision": "9fb44a9d977f4c9e1529",
+    "revision": "985a45293ac4049b5095",
     "url": "/static/css/main.d4e123fa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.02c0cf4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fb44a9d977f4c9e1529",
-    "url": "/static/js/main.75178360.chunk.js"
+    "revision": "985a45293ac4049b5095",
+    "url": "/static/js/main.2d4a8329.chunk.js"
   },
   {
     "revision": "5a3c0f81a62e8b7ff17f",
@@ -124,12 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github.0ba2aa20.png"
   },
   {
-    "revision": "326cb796e9ba9d9b32cad31d6d779287",
-    "url": "/static/media/ismo.326cb796.png"
+    "revision": "b71f005e5e64784513e4f1ba322d5372",
+    "url": "/static/media/icons8-python-94.b71f005e.png"
   },
   {
-    "revision": "bc5cfd3a887013976863247e66c389a2",
-    "url": "/static/media/mlh-logo.bc5cfd3a.svg"
+    "revision": "326cb796e9ba9d9b32cad31d6d779287",
+    "url": "/static/media/ismo.326cb796.png"
   },
   {
     "revision": "c108f55777ceaa6690606a207b737d0a",
