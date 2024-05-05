@@ -21,7 +21,7 @@ function Header(props) {
     border: "none",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: props.theme.name === "light" ? "#7CD1F7" : "#292C3F",
+    backgroundColor: props.theme.name === "light" ? "#2f304d" : "#292C3F",
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
@@ -64,11 +64,12 @@ function Header(props) {
     <Fade top duration={1000} distance="20px">
       <header className="header">
         <NavLink to="/home" tag={Link} className="logo">
-          <span style={{ color: theme.text }}></span>
           <span className="logo-name" style={{ color: theme.text }}>
-            {greeting.logo_name}
+            <img
+              src={require(`../../assests/images/${greeting.logo_name}`)}
+              alt="RS"
+            />
           </span>
-          <span style={{ color: theme.text }}></span>
         </NavLink>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">

@@ -8,15 +8,14 @@ function ProjectLinks(props) {
     win.focus();
   }
 
-  console.log(props);
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons-languages">
-          {props.logos.map((logo) => {
+          {props.logos.map((logo, i) => {
             return (
               <OverlayTrigger
-                key={logo.name}
+                key={i}
                 placement={"top"}
                 overlay={
                   <Tooltip id={`tooltip-top`}>

@@ -2,7 +2,7 @@
 const greeting = {
   title: "Hello 👋.",
   title2: "Sineka",
-  logo_name: "SR",
+  logo_name: "logo.png",
   nickname: "sinek",
   full_name: "Sineka Ramamoorthy",
   subTitle:
