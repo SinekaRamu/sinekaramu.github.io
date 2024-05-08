@@ -5,12 +5,14 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import MainPage from "../pages/checkTheme";
 
 export default function Main(propss) {
   return (
     <div>
       <HashRouter basename="/">
         <Switch>
+          <Route path="/theme" exact render={() => <MainPage />} />
           <Route
             path="/"
             exact
